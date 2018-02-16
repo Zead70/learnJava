@@ -6,7 +6,7 @@ public class Test {
 
    public static void main(String []argumente) {
     if(argumente.length == 0) {
-        System.out.println("Hello World");
+        System.out.println("Hallo World");
     } else if(argumente.length == 1) {
         System.out.println("hi salam " +argumente[0]);
     } else {
