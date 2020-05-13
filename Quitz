@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Aufgabeverzweigung {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		System.out.println("wie viele Bundesländer hat Deutschland");
+		System.out.println("15 - 16 - 17 - 18");
+		
+		
+		Scanner scan = new Scanner(System.in);
+		int eingabeUser = scan.nextInt();
+          
+		
+		
+		if(eingabeUser == 15) {
+			System.out.println("Das ist falsch");
+		}else if (eingabeUser == 17) {
+			System.out.println("Das ist falsch ");
+		}else if(eingabeUser == 18) {
+			System.out.println("Das ist falsch");
+		}else if(eingabeUser == 16) {
+			System.out.println("das ist richtig");
+			System.out.println("wie heißt der Bundespräsident?");
+		}
+			
+		
+		
+	}
+
+}
